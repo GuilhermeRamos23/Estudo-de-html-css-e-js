@@ -1,0 +1,251 @@
+@charset "utf-8"
+@import url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+@import url("../assets/fonts/static/Inter-Bold.ttf");
+@import url("../assets/fonts/static/Inter-ExtraBold.ttf");
+@import url("../assets/fonts/static/Inter-Regular.ttf");
+/*CORPO E TAMANHO DELE*/
+div#interface {
+    max-width: 1200px;
+    max-height: 900px;
+    height:900px;
+    background-color: rgb(255, 255, 255);
+    margin: -10px auto 0px auto;
+    
+}
+/*CABECALHO E LOGO*/
+header{
+    display: block;
+}
+header#cabecalho {
+    margin: -20px, 0px, 0px, 0px;
+    height: 70px;
+    background: url("../assets/images/logo.svg") no-repeat 100px 20px;
+}
+hgroup#menu li{
+    display: inline-block;
+    padding: 10px;
+    color: rgb(164, 154, 144);
+}
+hgroup#menu ul :hover{
+    color: tomato;
+
+}
+hgroup#menu ul{
+    list-style: none;
+}
+hgroup#menu ul{
+    display: block;
+    
+}
+hgroup#menu ul{
+    position: absolute;
+    top: auto;
+    left: 870px;
+    display: inline-block;
+}
+/*Section corpo*/
+.ap{
+    display: block;
+}
+.ap{
+    position: absolute;
+    right: 600px;
+    top: 400px;
+    width: 300px;
+    color: rgb(166, 170, 173);
+    
+}
+.btn{
+    display: block;
+    position: relative;
+}
+.btn {
+    left: 370px;
+    bottom: 120px;
+    background-color: #ed7043f3; 
+    border-radius: 1px;
+    color: white;
+    padding: 10px 10px ;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.btn:hover{
+    
+    background-color: rgb(3, 3, 31);
+}
+div#margensint{
+    display: block;
+}
+div#margensint{
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+section#corpo{
+    display: block;
+}
+section#corpo{
+    width: 650px;
+    float: left;
+    
+      
+}
+h1#textaju{
+position: relative;
+font-weight: 900;   
+font-family:'../assets/fonts/Inter-VariableFont_slnt\,wght.ttf', sans-serif;
+padding: 3px;
+font-size: 45px;
+bottom: 30px;
+
+
+}
+section#basecorpo{
+    float: left;
+
+}
+/*artigos abaixo do principal*/
+article{
+    display: block;
+    position: absolute
+    
+    
+}
+
+.um{
+    bottom: 10px;
+    left: 250px;
+    max-width: 1020px;
+    width: 350px;
+    height: 100px; 
+ 
+}
+.dois{
+    bottom: 10px;
+    left: 600px;
+    max-width: 1020px;
+    width: 300px;
+    height: 100px;  
+    
+    
+
+}
+.tres{
+    
+    bottom: 10px;
+    right: 250px;
+    max-width: 1020px;
+    width: 300px;
+    height: 100px;  
+   
+   
+    
+}
+.txt1{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    position: relative;
+    font-size: 30px;
+    left: 5px;
+    color: rgb(166, 170, 173);
+    left: 115px;
+    bottom: 120px;
+    
+
+}
+.txt2{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+    font-size: 15px;
+    font-weight: 800;
+    bottom: 120px;
+    left: 115px;
+  
+}
+.txt2:hover{
+     color: coral;
+}
+.txt3{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(166, 170, 173);
+    position: relative;
+    bottom: 120px;
+    left: 115px;
+  
+}
+img#imgp{    
+    width: 100%;
+    height: 80%;
+}
+
+/* imagens de article*/
+.img1{
+    width: 100px;
+    height: 120px;
+}
+.img2{
+    width: 100px;
+    height: 120px;
+}
+.img3{
+    width: 100px;
+    height: 120px;
+}
+/*aside c*/
+aside{
+    
+    display: block;
+    width: 350px;
+    height: 450px;
+    
+}
+aside#lateral{
+    position: absolute;
+    float: right;
+    right: 250px;
+    background-color: rgb(3, 3, 31);
+    margin-left: 10px;
+    
+}
+aside h1{
+font-family:Arial, sans-serif;
+font-size: 25pt;
+font-weight: 600;
+color:rgb(245, 187, 0, 0.8);
+text-align: left;
+margin-left: 15px;
+}
+aside h3{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: 600;
+    margin-left: -15px; 
+    text-align: center;
+}
+aside p{
+    margin-top: 30px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(164, 154, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-bottom:solid 1px #888;
+    font-weight: 500;
+}
+aside#lateral h3:hover{
+    color:rgb(233, 183, 18);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
